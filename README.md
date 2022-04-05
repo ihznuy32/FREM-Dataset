@@ -16,7 +16,7 @@ For the 1st international "Yuanjian Cup" meta-intelligence data challenge compet
 ![Demand](./PicForREADME.png)
 
 ### 4.数据集说明
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 比赛提供某天气雷达体扫所得雷达回波图像供
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 比赛提供某天气雷达体扫所得雷达回波图像，分为Dataset-A和Dataset-B两部分。
 
 
 数据集介绍： 比赛提供根据在标准范围内随机选取的数值生成，作为输入图片的灰度图包含15项参数信息，分别为初始孔隙率、固有渗透率、温升增长系数、水灰比、混凝土密度、比热容、热传导系数、初始饱和度，以及受火后1分钟、2分钟、4分钟、6分钟、8分钟、25分钟和30分钟时的火荷载温度。输出图片是三通道RGB彩色图像，RGB三个通道像素值分别代表可由上述15个参数通过数值计算获得的饱和度、孔压和温度信息。比赛数据分为训练集和测试集两部分，训练集提供5000组输入图片及5000张输出图片；测试集仅提供3组输入图片。其中，文件inputpic.zip中为输入图片，文件outputpic1.zip&outputpic2.zip中为输出图片，文件testpic.zip中为测试图片。
