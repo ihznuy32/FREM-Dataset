@@ -62,7 +62,26 @@
   pages={575–-597},
   year={2019}
 }
+
 ```
+
+
+```angular2html
+@Article{cmes.2022.022045,
+AUTHOR = {Zhiyun Yang, Qi Liu, Hao Wu, Xiaodong Liu, Yonghong Zhang},
+TITLE = {CEMA-LSTM: Enhancing Contextual Feature Correlation for Radar Extrapolation Using Fine-grained Echo Datasets},
+JOURNAL = {Computer Modeling in Engineering \& Sciences},
+<!--VOLUME = {132},-->
+YEAR = {2022},
+<!--NUMBER = {1},-->
+<!--PAGES = {1&#45;&#45;3},-->
+<!--URL = {http://www.techscience.com/CMES/v132n1/48100},-->
+<!--ISSN = {1526-1506},-->
+<!--ABSTRACT = {},-->
+DOI = {10.32604/cmes.2022.022045}
+}
+```
+
 ```angular2html
 // To Be Supplemented
 ```
