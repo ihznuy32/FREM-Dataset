@@ -26,10 +26,13 @@
 &emsp;&emsp; Dataset-B作为测试集，于作品提交截止前3天上传于本仓库，其包含925组回波图序列，每个序列仅提供前5张回波图。  
 &emsp;&emsp; Dataset-A和Dataset-B中每张回波图大小均为128×128，每个像素点的像素值即表示对应位置的dBZ数值。回波图png文件的读取方法，请参照仓库中的“Read_Example.py”文件。
 
+&emsp;&emsp; 📢📢📢 **为方便各参赛队伍尽早准备作品报告等相关文档和测试结果，测试数据将于6月15日上传，请各参赛队伍留意，预祝各位取得好成绩**
+
 ## 5. 作品提交要求
 ***
 &emsp;&emsp; 对于测试集预测结果，各参赛队伍须严格参照原始数据文件格式，以PNG格式编码，网格点数目、覆盖范围和分辨率须与原来的图像数据相同，覆盖数值范围亦必须符合要求。  
 &emsp;&emsp; 参赛队伍需建立存储预测数据的压缩包，命名为“Predict.zip”，压缩包内根据测试集的文件夹数量（每个文件夹包含一组图片），建立相同数量的预测数据文件夹。各文件夹名称与FREM-Dataset-B.zip种文件夹名称一致，每个子文件夹内包含10张PNG格式的雷达图（格式与已提供的雷达图一致），分别对应每组测试序列的后10张预测雷达图，文件名分别为“p1.png”、“p2.png”…“p10.png”，如下表所示。最后，参赛队伍将Predict.zip压缩包并提交。   
+
 
 |FREM-Dataset-B.zip内文件夹名|FREM-Dataset-Predict.zip内文件夹名|Predict.zip内文件夹中的文件名 |  
 |--------------------------|-----------------------|----------------------------------|
@@ -71,13 +74,7 @@
 AUTHOR = {Zhiyun Yang, Qi Liu, Hao Wu, Xiaodong Liu, Yonghong Zhang},
 TITLE = {CEMA-LSTM: Enhancing Contextual Feature Correlation for Radar Extrapolation Using Fine-grained Echo Datasets},
 JOURNAL = {Computer Modeling in Engineering \& Sciences},
-<!--VOLUME = {132},-->
 YEAR = {2022},
-<!--NUMBER = {1},-->
-<!--PAGES = {1&#45;&#45;3},-->
-<!--URL = {http://www.techscience.com/CMES/v132n1/48100},-->
-<!--ISSN = {1526-1506},-->
-<!--ABSTRACT = {},-->
 DOI = {10.32604/cmes.2022.022045}
 }
 ```
